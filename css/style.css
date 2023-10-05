@@ -1047,6 +1047,7 @@ body {
   margin: auto;
 }
 .contact_form_btn {
+  color: #3d3d3d;
   background-color: transparent;
   border: none;
   outline: none;
