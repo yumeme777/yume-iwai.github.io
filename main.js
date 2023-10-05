@@ -49,21 +49,6 @@ if (opening !== null) {
         ease: Bounce.easeOut, // イージングの設定
         autoAlpha: 0,
       })
-      .from(".js_circle", {
-        y: -200, // テキストのY軸の操作
-        delay: 0, // アニメーションのスタートまでの遅延時間
-        duration: 1, // アニメーションの時間
-        ease: Bounce.easeOut, // イージングの設定
-        autoAlpha: 0,
-      })
-      .to(".js_opening_text", {
-        y: 0, // テキストのY軸の操作
-        stagger: 0.3, // テキスト間の遅延時間
-        delay: 0.5, // アニメーションのスタートまでの遅延時間
-        duration: 1, // アニメーションの時間
-        ease: "power2.out", // イージングの設定
-        autoAlpha: 1,
-      })
       .from(".js_loading_logo", {
         y: -100, // テキストのY軸の操作
         delay: 0, // アニメーションのスタートまでの遅延時間
@@ -71,11 +56,18 @@ if (opening !== null) {
         ease: Bounce.easeOut, // イージングの設定
         autoAlpha: 0,
       })
-
+      .to(".js_opening_text", {
+        y: 0, // テキストのY軸の操作
+        stagger: 0.2, // テキスト間の遅延時間
+        delay: 0.5, // アニメーションのスタートまでの遅延時間
+        duration: 0.5, // アニメーションの時間
+        ease: "power2.out", // イージングの設定
+        autoAlpha: 1,
+      })
       .to(".js_opening", {
-        duration: 1.5, // アニメーションの時間
+        duration: 1, // アニメーションの時間
         autoAlpha: 0,
-        delay: 1.5,
+        delay: 1,
         onComplete: function () {
           body.classList.toggle("is-active");
         },
