@@ -243,6 +243,9 @@ body {
   z-index: 200;
 }
 
+.js_header {
+  display: none;
+}
 .js_header.is-active {
   height: 100vh;
   overflow: hidden;
@@ -344,9 +347,6 @@ body {
     display: block;
   }
 }
-.js_footer.is-active {
-  display: none;
-}
 
 .l_footer {
   background-color: #F6C7BC;
@@ -393,14 +393,6 @@ body {
   display: block;
   font-family: "Caveat", cursive;
   font-size: 1.4rem;
-}
-
-.title {
-  font-size: 3.2rem;
-  font-weight: bold;
-  margin-top: 80px;
-  padding-bottom: 24px;
-  color: blue;
 }
 
 .m_loading_circle {
