@@ -243,9 +243,6 @@ body {
   z-index: 200;
 }
 
-.js_header {
-  display: none;
-}
 .js_header.is-active {
   height: 100vh;
   overflow: hidden;
