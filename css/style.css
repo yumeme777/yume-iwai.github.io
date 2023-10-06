@@ -300,6 +300,9 @@ body {
     pointer-events: none;
   }
 }
+.js_nav-wrapper {
+  display: none;
+}
 .js_nav-wrapper.is-active {
   display: block;
   position: relative;
