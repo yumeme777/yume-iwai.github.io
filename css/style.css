@@ -837,6 +837,11 @@ body {
   margin-right: auto;
   padding: 80px 0px;
 }
+@media screen and (min-width: 768px) {
+  .m_copy_character {
+    display: none;
+  }
+}
 .m_copy_character-img {
   aspect-ratio: 514/289;
 }
@@ -1212,26 +1217,22 @@ body {
   aspect-ratio: 1000/1001;
 }
 
-@media screen and (min-width: 768px) {
-  .df {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-.not_found {
-  height: 100vh;
-}
-
 .not_found > .l_container {
   height: 100vh;
 }
 
-.thanks {
-  height: 100vh;
+@media screen and (min-width: 768px) {
+  .notFound_page_btn {
+    margin-top: 56px;
+  }
 }
 
 .thanks > .l_container {
   height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .thanks_page_btn {
+    margin-top: 56px;
+  }
 }
