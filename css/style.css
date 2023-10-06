@@ -185,6 +185,7 @@ body {
 }
 
 .l_header {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   left: 0;
@@ -1244,4 +1245,4 @@ body {
 
 .thanks > .l_container {
   height: 100vh;
-}/*# sourceMappingURL=style.css.map */
+}
