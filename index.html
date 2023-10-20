@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>いわいゆめ｜Web制作</title>
+    <meta
+      name="description"
+      content="「とこトンよりそうこと」をモットーとして活動している、いわいゆめのポートフォリオサイトです。"
+    />
+    <meta
+      name="keywords"
+      content="岩井佑明,いわいゆめ,いわい,ゆめ,コーダー,ウェブデザイン,web制作,とことん,ホームページ作成"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- favicon/web-clip-icon -->
+    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="webclip.png" />
+
+    <!-- ogp -->
+    <meta
+      property="og:site_name"
+      content="「とこトンよりそうこと」をモットーとして活動している、いわいゆめのポートフォリオサイトです。"
+    />
+    <meta
+      property="og:url"
+      content="https://yumeme777.github.io/yume-iwai.github.io/"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="いわいゆめ｜Web制作" />
+    <meta
+      property="og:description"
+      content="「とこトンよりそうこと」をモットーとして活動している、いわいゆめのポートフォリオサイトです。"
+    />
+    <meta
+      property="og:image"
+      content="https://firebasestorage.googleapis.com/v0/b/fight777-df23d.appspot.com/o/ogp_tokotonn.png?alt=media&token=a5b7af97-15b8-40c5-a5db-7b8a9dfdb3ce"
+    />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:description"
+      content="「とこトンよりそうこと」をモットーとして活動している、いわいゆめのポートフォリオサイトです。"
+    />
+    <meta
+      name="twitter:image:src"
+      content="https://firebasestorage.googleapis.com/v0/b/fight777-df23d.appspot.com/o/ogp_tokotonn.png?alt=media&token=a5b7af97-15b8-40c5-a5db-7b8a9dfdb3ce"
+    />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kaisei+Opti&family=Noto+Sans+JP:wght@400;700&family=Palette+Mosaic&family=Skranji&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body class="js_body">
+    <div class="m_loading_animation js_opening">
+      <div class="m_loading_animation-wrapper">
+        <div class="m_loading_circle-wrapper">
+          <span class="m_loading_circle js_opening_animation"></span>
+        </div>
+        <div class="m_loading_logo js_loading_logo">
+          <img
+            src="img/loading.png"
+            alt="とこトンよりそいます"
+            class="loading_img"
+            width="414"
+            height="552"
+          />
+        </div>
+        <p class="m_loading_text">
+          <span class="m_loading_text_span js_opening_text">と</span>
+          <span class="m_loading_text_span js_opening_text">こ</span>
+          <span class="m_loading_text_span js_opening_text">ト</span>
+          <span class="m_loading_text_span js_opening_text">ン</span>
+        </p>
+
+        <p class="m_loading_text">
+          <span class="m_loading_text_span js_opening_text">よ</span>
+          <span class="m_loading_text_span js_opening_text">り</span>
+          <span class="m_loading_text_span js_opening_text">そ</span>
+          <span class="m_loading_text_span js_opening_text">い</span>
+          <span class="m_loading_text_span js_opening_text">ま</span>
+          <span class="m_loading_text_span js_opening_text">す</span>
+        </p>
+      </div>
+    </div>
+
+    <header class="l_header js_header">
+      <div class="l_header_logo js_header-logo">
+        <img
+          src="img/header.png"
+          alt=""
+          class="l_header_logo-img"
+          width="606"
+          height="284"
+        />
+        <img
+          src="img/header_pc.png"
+          alt=""
+          class="l_header_logo-img__pc"
+          width="606"
+          height="284"
+        />
+        <a href="index.html" class="l_header_logo-link">
+          <h1 class="l_header_logo_name">とこトン</h1>
+        </a>
+      </div>
+
+      <div class="l_header-nav_wrapper js_nav-wrapper">
+        <div class="l_header-nav_img js_img">
+          <img
+            src="img/header.png"
+            alt=""
+            class="l_header-nav_topBottom"
+            width="606"
+            height="284"
+          />
+
+          <a href="index.html" class="l_header_logo-link">
+            <h1 class="l_header_logo_name">とこトン</h1>
+          </a>
+        </div>
+
+        <nav class="l_header-nav js_nav">
+          <ul class="l_header-nav_list">
+            <li class="l_header-nav_item">
+              <a href="index.html#about" class="l_header-nav_link">
+                <div class="m_navigation_content">
+                  <p class="m_navigation_title m_hamburger_title">About</p>
+                  <p class="m_navigation_title-jp">わたしについて</p>
+                </div>
+              </a>
+            </li>
+            <li class="l_header-nav_item">
+              <a href="works_page.html" class="l_header-nav_link">
+                <div class="m_navigation_content">
+                  <p class="m_navigation_title m_hamburger_title">Works</p>
+                  <p class="m_navigation_title-jp">制作実績</p>
+                </div>
+              </a>
+            </li>
+            <li class="l_header-nav_item">
+              <a href="index.html#service" class="l_header-nav_link">
+                <div class="m_navigation_content">
+                  <p class="m_navigation_title m_hamburger_title">Service</p>
+                  <p class="m_navigation_title-jp">サービス</p>
+                </div>
+              </a>
+            </li>
+            <li class="l_header-nav_item">
+              <a href="top_blog.html" class="l_header-nav_link">
+                <div class="m_navigation_content">
+                  <p class="m_navigation_title m_hamburger_title">Blog</p>
+                  <p class="m_navigation_title-jp">ブログ</p>
+                </div>
+              </a>
+            </li>
+            <li class="l_header-nav_item">
+              <div class="m_btn_wrapper">
+                <div class="m_btn_proposal">
+                  <p class="m_btn_proposal-text">お気軽にご相談ください！</p>
+                </div>
+                <div class="m_btn contact_btn u_mt16">
+                  <a
+                    href="contact_page.html"
+                    class="m_btn_link m_btn_link__accentColor l_header-nav_link"
+                    >お問い合わせ</a
+                  >
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <div class="l_header-nav_img js_img_bottom">
+          <img
+            src="img/header.png"
+            alt=""
+            class="l_header-nav_topBottom"
+            width="606"
+            height="284"
+          />
+        </div>
+      </div>
+
+      <button class="m_hamburger js_hamburger">
+        <span class="m_hamburger-bar js_hamburger-bar"></span>
+        <span class="m_hamburger-bar js_hamburger-bar"></span>
+        <span class="m_hamburger-bar js_hamburger-bar"></span>
+      </button>
+    </header>
+
+    <div class="kv">
+      <img
+        src="img/kv.png"
+        alt="とこトンよりそいます"
+        class="kv_img"
+        width="640"
+        height="1088"
+      />
+    </div>
+    <div class="kv_pc">
+      <img
+        src="img/kv_pc.png"
+        alt="とこトンよりそいます"
+        class="kv_img"
+        width="726"
+        height="1088"
+      />
+    </div>
+
+    <main class="main">
+      <section class="about" id="about">
+        <div class="l_container">
+          <div class="l_content">
+            <div class="m_section_title-wrapper">
+              <div class="m_section_title-decoration"></div>
+              <div class="m_section_title-content">
+                <h2 class="m_section_title">About</h2>
+                <p class="m_section_title-jp">わたしについて</p>
+              </div>
+              <div class="m_section_title-decoration"></div>
+            </div>
+
+            <div class="about_profile_wrapper">
+              <div class="about_profile">
+                <img
+                  src="img/about.jpg"
+                  alt="いわいゆめ"
+                  class="about_profile_img"
+                  width="800"
+                  height="800"
+                />
+              </div>
+              <div class="about_profile_name">
+                <p class="about_profile_name-en">IWAI YUME</p>
+                <p class="about_profile_name-jp">いわいゆめ</p>
+                <div class="about_decoration"></div>
+              </div>
+
+              <div class="about_profile_contents">
+                <p class="m_section_text">
+                  ホームページ作成をしている、いわいゆめです。<span
+                    class="u_bold"
+                    >とこトン</span
+                  >寄り添うことをモットーに愛知県を拠点として活動しています。
+                </p>
+                <p class="m_section_text u_mt32">
+                  わたしが大切にしていることは、「<span class="u_bold"
+                    >初心を忘れないこと</span
+                  >」です。慣れた時にこそ、初心を思い出すように心がけています。お客様とのかかわりの中では、コミュニケーションを大切にし、１つ１つの作業を丁寧におこなっていきます。
+                </p>
+              </div>
+            </div>
+            <div class="m_btn u_mt80">
+              <a href="top_blog.html" class="m_btn_link">ブログをみる </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="works" id="works">
+        <div class="l_container">
+          <div class="l_content">
+            <div class="m_section_title-wrapper">
+              <div class="m_section_title-decoration"></div>
+              <div class="m_section_title-content">
+                <h2 class="m_section_title">Works</h2>
+                <p class="m_section_title-jp">制作実績</p>
+              </div>
+              <div class="m_section_title-decoration"></div>
+            </div>
+
+            <p class="m_section_text u_mt32 u_center">
+              これまで作成してきたホームページです。
+            </p>
+
+            <ul class="works_item_list">
+              <li class="works_item">
+                <div class="works_item_thumb">
+                  <a
+                    href="https://yumeme777.github.io/yuki.mizutani.github.io/index.html"
+                    class="works_item_link"
+                  >
+                    <img
+                      src="img/work_top.png"
+                      alt="水谷悠樹様のポートフォリオサイト"
+                      class="works_item_img"
+                      width="686"
+                      height="424"
+                    />
+                  </a>
+                </div>
+                <p class="works_item_title">
+                  水谷悠樹様<br />ポートフォリオサイト
+                </p>
+                <div class="m_btn u_mt32">
+                  <a href="works_page.html" class="m_btn_link">もっとみる </a>
+                </div>
+              </li>
+              <li class="works_item">
+                <div class="works_item_thumb">
+                  <a
+                    href="https://yumeme777.github.io/iwai-yume.github.io/"
+                    class="works_item_link"
+                  >
+                    <img
+                      src="img/works02_top.png"
+                      alt="いわいゆめのポートフォリオサイト"
+                      class="works_item_img"
+                      width="686"
+                      height="424"
+                    />
+                  </a>
+                </div>
+                <p class="works_item_title">
+                  いわいゆめ<br />ポートフォリオサイト
+                </p>
+                <div class="m_btn u_mt32">
+                  <a href="works_page.html#portfolio" class="m_btn_link"
+                    >もっとみる
+                  </a>
+                </div>
+              </li>
+              <li class="works_item">
+                <div class="works_item_thumb">
+                  <a href="works_page.html#this" class="works_item_link">
+                    <img
+                      src="img/works03_top.png"
+                      alt="このポートフォリオサイト"
+                      class="works_item_img"
+                      width="686"
+                      height="424"
+                    />
+                  </a>
+                </div>
+                <p class="works_item_title">このポートフォリオサイト</p>
+                <div class="m_btn u_mt32">
+                  <a href="works_page.html#this" class="m_btn_link"
+                    >もっとみる
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="service" id="service">
+        <div class="l_container">
+          <div class="l_content">
+            <div class="m_section_title-wrapper">
+              <div class="m_section_title-decoration"></div>
+              <div class="m_section_title-content">
+                <h2 class="m_section_title">Service</h2>
+                <p class="m_section_title-jp">サービス</p>
+              </div>
+              <div class="m_section_title-decoration"></div>
+            </div>
+
+            <p class="m_section_text u_mt32 u_center">
+              わたしがお手伝いできることについて
+            </p>
+
+            <ul class="service_item_list">
+              <li class="service_item">
+                <p class="service_item_number">01</p>
+                <p class="service_item_title">ホームページ作成</p>
+                <div class="service_item_line">
+                  <img
+                    src="img/line.png"
+                    alt=""
+                    class="service_item_decoration"
+                    width="373"
+                    height="3"
+                  />
+                </div>
+                <p class="service_item_text">
+                  HTML・CSS・javascriptを用いて、動きのあるホームページ作成します。
+                </p>
+
+                <div class="m_point service_item_point">
+                  <div class="m_point-decoration"></div>
+                  <div class="m_point_content">
+                    <p class="m_point_title">point</p>
+                    <p class="m_point_title-jp">ポイント</p>
+                  </div>
+                </div>
+
+                <p class="service_item_point-text">
+                  SEO対策を意識してコーディングすること、実機テストをして表示崩れがないかを隅々までチェックすることに力を入れています。
+                </p>
+              </li>
+              <li class="service_item">
+                <p class="service_item_number">02</p>
+                <p class="service_item_title">WordPress</p>
+                <div class="service_item_line">
+                  <img
+                    src="img/line.png"
+                    alt=""
+                    class="service_item_decoration"
+                    width="373"
+                    height="3"
+                  />
+                </div>
+                <p class="service_item_text">
+                  作成したホームページをWordPressに組み込むことで、難解なコードををいじることなく記事の投稿、削除、編集などが簡単にできるようになります。また、SEO対策がしやすいという利点があります。
+                </p>
+
+                <div class="m_point service_item_point">
+                  <div class="m_point-decoration"></div>
+                  <div class="m_point_content">
+                    <p class="m_point_title">point</p>
+                    <p class="m_point_title-jp">ポイント</p>
+                  </div>
+                </div>
+
+                <p class="service_item_point-text">
+                  <span class="u_fz20">▶ご相談料金無料</span>
+                </p>
+                <p class="service_item_point-text">
+                  WordPressが必要かどうかは、お客様の作成したいホームページによって変わってきますので、導入に迷われる際はご相談ください。
+                </p>
+              </li>
+              <li class="service_item">
+                <p class="service_item_number">03</p>
+                <p class="service_item_title">デザイン作成</p>
+                <div class="service_item_line">
+                  <img
+                    src="img/line.png"
+                    alt=""
+                    class="service_item_decoration"
+                    width="373"
+                    height="3"
+                  />
+                </div>
+                <p class="service_item_text">
+                  ホームページのデザインを作成します。使用するデザインツールはfigmaです。「意味のあるデザイン」なのか「わかりやすいデザイン」なのかを意識して作成します。
+                </p>
+
+                <div class="m_point service_item_point">
+                  <div class="m_point-decoration"></div>
+                  <div class="m_point_content">
+                    <p class="m_point_title">point</p>
+                    <p class="m_point_title-jp">ポイント</p>
+                  </div>
+                </div>
+
+                <p class="service_item_point-text">
+                  <span class="u_fz20"
+                    >▶ミーティング回数無制限 <br />▶修正回数無制限</span
+                  >
+                </p>
+                <p class="service_item_point-text">
+                  WordPressが必要かどうかは、お客様の作成したいホームページによって変わってきますので、導入に迷われる際はご相談ください。
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="flow">
+        <div class="l_container">
+          <div class="l_content">
+            <div class="m_section_title-wrapper">
+              <div class="m_section_title-decoration"></div>
+              <div class="m_section_title-content">
+                <h2 class="m_section_title">Flow</h2>
+                <p class="m_section_title-jp">制作フロー</p>
+              </div>
+              <div class="m_section_title-decoration"></div>
+            </div>
+
+            <p class="m_section_text u_mt32 u_center">
+              お問い合わせから納品までの流れ
+            </p>
+
+            <ul class="flow_figure_list">
+              <li class="flow_figure_item">
+                <div class="flow_figure_item-flex">
+                  <p class="flow_figure_item-number">1</p>
+                  <div class="flow_figure_item-content">
+                    <p class="flow_figure_item-title">お問い合わせ</p>
+                    <p class="flow_figure_item-desc">
+                      お客様からお問い合わせいただいた後３日以内にご連絡します。また、ご相談内容についてのヒアリングを無料でさせていただいておりますので、ぜひご活用ください。無理な勧誘は一切ございませんので安心してください。ご縁があれば幸いです。
+                    </p>
+                  </div>
+                </div>
+                <div class="flow_figure_item-figure">
+                  <img
+                    src="img/flow.png"
+                    alt="お問い合わせ"
+                    class="flow_figure_item-img"
+                    width="1000"
+                    height="1001"
+                  />
+                </div>
+              </li>
+              <li class="flow_figure_item">
+                <div class="flow_figure_item-flex">
+                  <p class="flow_figure_item-number">2</p>
+                  <div class="flow_figure_item-content">
+                    <p class="flow_figure_item-title">
+                      ご契約・初回ミーティング
+                    </p>
+                    <p class="flow_figure_item-desc">
+                      お客様にとこトン寄り添いながらホームページを作成することをお約束いたします！！
+                    </p>
+                  </div>
+                </div>
+                <div class="flow_figure_item-figure">
+                  <img
+                    src="img/flow02.png"
+                    alt="ご契約・初回ミーティング"
+                    class="flow_figure_item-img"
+                    width="5001"
+                    height="5001"
+                  />
+                </div>
+              </li>
+              <li class="flow_figure_item">
+                <div class="flow_figure_item-flex">
+                  <p class="flow_figure_item-number">3</p>
+                  <div class="flow_figure_item-content">
+                    <p class="flow_figure_item-title">
+                      コーディング・Wordpress
+                    </p>
+                    <p class="flow_figure_item-desc">
+                      figmaやAdobeXDなどで作成されたデザインカンプをもとに、ホームページ作成をしていきます。デザインをお持ちでない場合は、お客様にとこトン寄り添いながらデザインを作成していきますのでご安心ください。希望に応じてWordpressへの反映も承ります。
+                    </p>
+                  </div>
+                </div>
+                <div class="flow_figure_item-figure">
+                  <img
+                    src="img/flow03.png"
+                    alt="コーディング・Wordpress作業"
+                    class="flow_figure_item-img"
+                    width="5001"
+                    height="5001"
+                  />
+                </div>
+              </li>
+              <li class="flow_figure_item">
+                <div class="flow_figure_item-flex">
+                  <p class="flow_figure_item-number">4</p>
+                  <div class="flow_figure_item-content">
+                    <p class="flow_figure_item-title">納品・お支払い</p>
+                    <p class="flow_figure_item-desc">
+                      実機テストを繰り返し、サーバーにアップするか、データをお客様にお送りして納品させていただきます。
+                    </p>
+                  </div>
+                </div>
+                <div class="flow_figure_item-figure">
+                  <img
+                    src="img/flow04.png"
+                    alt="コーディング・Wordpress作業"
+                    class="flow_figure_item-img"
+                    width="5001"
+                    height="5001"
+                  />
+                </div>
+              </li>
+            </ul>
+            <div class="m_btn_wrapper u_mt80">
+              <div class="m_btn_proposal">
+                <p class="m_btn_proposal-text">お気軽にご相談ください！</p>
+              </div>
+              <div class="m_btn contact_btn u_mt16">
+                <a
+                  href="contact_page.html"
+                  class="m_btn_link m_btn_link__accentColor"
+                  >お問い合わせ</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="l_footer">
+      <div class="l_footer_wrapper">
+        <div class="l_footer_navigation">
+          <a href="index.html#about" class="m_navigation_link">
+            <div class="m_navigation_content">
+              <p class="m_navigation_title">About</p>
+              <p class="m_navigation_title-jp">わたしについて</p>
+            </div>
+          </a>
+
+          <a href="works_page.html" class="m_navigation_link">
+            <div class="m_navigation_content">
+              <p class="m_navigation_title">Works</p>
+              <p class="m_navigation_title-jp">制作実績</p>
+            </div>
+          </a>
+
+          <a href="index.html#service" class="m_navigation_link">
+            <div class="m_navigation_content">
+              <p class="m_navigation_title">Service</p>
+              <p class="m_navigation_title-jp">サービス</p>
+            </div>
+          </a>
+
+          <a href="top_blog.html" class="m_navigation_link">
+            <div class="m_navigation_content">
+              <p class="m_navigation_title">Blog</p>
+              <p class="m_navigation_title-jp">ブログ</p>
+            </div>
+          </a>
+        </div>
+        <div class="l_footer_navigation">
+          <a href="contact_page.html" class="m_navigation_link">
+            <div class="m_navigation_content m_navigation_bgimage">
+              <p class="m_navigation_title">Contact</p>
+              <p class="m_navigation_title-jp">お問い合わせ</p>
+            </div>
+          </a>
+          <div class="m_sns-icon">
+            <a
+              href="https://twitter.com/diet07110943"
+              class="m_sns-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="img/logo-black.png"
+                alt="X(旧twitter)"
+                class="m_sns-img"
+                width="2400"
+                height="2453"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <small class="l_footer_copyright u_mt32"> &copy;2023 YUME IWAI </small>
+    </footer>
+    <footer class="l_footer_pc">
+      <a href="index.html#about" class="m_navigation_link">
+        <div class="m_navigation_content">
+          <p class="m_navigation_title">About</p>
+          <p class="m_navigation_title-jp">わたしについて</p>
+        </div>
+      </a>
+
+      <a href="works_page.html" class="m_navigation_link">
+        <div class="m_navigation_content">
+          <p class="m_navigation_title">Works</p>
+          <p class="m_navigation_title-jp">制作実績</p>
+        </div>
+      </a>
+
+      <a href="index.html#service" class="m_navigation_link">
+        <div class="m_navigation_content">
+          <p class="m_navigation_title">Service</p>
+          <p class="m_navigation_title-jp">サービス</p>
+        </div>
+      </a>
+
+      <a href="top_blog.html" class="m_navigation_link">
+        <div class="m_navigation_content">
+          <p class="m_navigation_title">Blog</p>
+          <p class="m_navigation_title-jp">ブログ</p>
+        </div>
+      </a>
+
+      <a href="contact_page.html" class="m_navigation_link">
+        <div class="m_navigation_content m_navigation_bgimage">
+          <p class="m_navigation_title">Contact</p>
+          <p class="m_navigation_title-jp">お問い合わせ</p>
+        </div>
+      </a>
+
+      <div class="m_sns-icon">
+        <a
+          href="https://twitter.com/diet07110943"
+          class="m_sns-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="img/logo-black.png"
+            alt="X(旧twitter)"
+            class="m_sns-img"
+            width="2400"
+            height="2453"
+          />
+        </a>
+      </div>
+      <small class="l_footer_copyright"> &copy;2023 YUME IWAI </small>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kaisei+Opti&family=Noto+Sans+JP:wght@400;700&family=Palette+Mosaic&family=Skranji&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body class="js_body">
+    <p class="title">button</p>
+    <div class="m_btn">
+      <a href="" class="m_btn_link">もっとみる </a>
+    </div>
+
+    <div class="m_btn">
+      <a href="" class="m_btn_link">もどる</a>
+    </div>
+
+    <div class="m_btn_wrapper">
+      <div class="m_btn_proposal">
+        <p class="m_btn_proposal-text">お気軽にご相談ください！</p>
+      </div>
+      <div class="m_btn contact_btn">
+        <a href="" class="m_btn_link m_btn_link__accentColor">お問い合わせ</a>
+      </div>
+    </div>
+
+    <div class="m_btn">
+      <a href="" class="m_btn_link m_btn_link__accentColor">送信する</a>
+    </div>
+
+    <p class="title">section_title</p>
+
+    <div class="m_section_title-wrapper">
+      <div class="m_section_title-decoration"></div>
+      <div class="m_section_title-content">
+        <h2 class="m_section_title">About</h2>
+        <p class="m_section_title-jp">わたしについて</p>
+      </div>
+
+      <div class="m_section_title-decoration"></div>
+    </div>
+
+    <p class="m_section_title-sub">
+      これまで作成してきたホームページです。デザインからホームページ作成まで担当しました。
+    </p>
+
+    <p class="title">navigation</p>
+
+    <footer class="l_footer_pc">
+      <a href="index.html#about" class="m_navigation_link">
+        <div class="m_navigation_content">
+          <p class="m_navigation_title">About</p>
+          <p class="m_navigation_title-jp">わたしについて</p>
+        </div>
+      </a>
+
+      <a href="works_page.html" class="m_navigation_link">
+        <div class="m_navigation_content">
+          <p class="m_navigation_title">Works</p>
+          <p class="m_navigation_title-jp">制作実績</p>
+        </div>
+      </a>
+
+      <a href="index.html#service" class="m_navigation_link">
+        <div class="m_navigation_content">
+          <p class="m_navigation_title">Service</p>
+          <p class="m_navigation_title-jp">サービス</p>
+        </div>
+      </a>
+
+      <a href="blog_cat.html" class="m_navigation_link">
+        <div class="m_navigation_content">
+          <p class="m_navigation_title">Blog</p>
+          <p class="m_navigation_title-jp">ブログ</p>
+        </div>
+      </a>
+
+      <a href="contact_page.html" class="m_navigation_link">
+        <div class="m_navigation_content m_navigation_bgimage">
+          <p class="m_navigation_title">Contact</p>
+          <p class="m_navigation_title-jp">お問い合わせ</p>
+        </div>
+      </a>
+
+      <div class="m_sns-icon">
+        <a href="https://twitter.com/diet07110943" class="m_sns-link">
+          <img
+            src="img/logo-black.png"
+            alt="X(旧twitter)"
+            class="m_sns-img"
+            width="2400"
+            height="2453"
+          />
+        </a>
+      </div>
+      <small class="l_footer_copyright"> &copy;2023 YUME IWAI </small>
+    </footer>
+
+    <p class="title">footer_copyright</p>
+    <small class="l_footer_copyright"> &copy;2023 YUME IWAI </small>
+
+    <footer class="l_footer">
+      <div class="l_footer_wrapper">
+        <div class="l_footer_navigation">
+          <a href="index.html#about" class="m_navigation_link">
+            <div class="m_navigation_content">
+              <p class="m_navigation_title">About</p>
+              <p class="m_navigation_title-jp">わたしについて</p>
+            </div>
+          </a>
+
+          <a href="works_page.html" class="m_navigation_link">
+            <div class="m_navigation_content">
+              <p class="m_navigation_title">Works</p>
+              <p class="m_navigation_title-jp">制作実績</p>
+            </div>
+          </a>
+
+          <a href="index.html#service" class="m_navigation_link">
+            <div class="m_navigation_content">
+              <p class="m_navigation_title">Service</p>
+              <p class="m_navigation_title-jp">サービス</p>
+            </div>
+          </a>
+
+          <a href="blog_cat.html" class="m_navigation_link">
+            <div class="m_navigation_content">
+              <p class="m_navigation_title">Blog</p>
+              <p class="m_navigation_title-jp">ブログ</p>
+            </div>
+          </a>
+        </div>
+        <div class="l_footer_navigation">
+          <a href="contact_page.html" class="m_navigation_link">
+            <div class="m_navigation_content m_navigation_bgimage">
+              <p class="m_navigation_title">Contact</p>
+              <p class="m_navigation_title-jp">お問い合わせ</p>
+            </div>
+          </a>
+          <div class="m_sns-icon">
+            <a href="https://twitter.com/diet07110943" class="m_sns-link">
+              <img
+                src="img/logo-black.png"
+                alt="X(旧twitter)"
+                class="m_sns-img"
+                width="2400"
+                height="2453"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <small class="l_footer_copyright"> &copy;2023 YUME IWAI </small>
+    </footer>
+
+    <p class="title">hamburger</p>
+
+    <nav class="l_header-nav js_nav">
+      <ul class="l_header-nav_list">
+        <li class="l_header-nav_item">
+          <a href="index.html" class="l_header-nav_link">
+            <div class="m_navigation_content">
+              <p class="m_navigation_title">About</p>
+              <p class="m_navigation_title-jp">わたしについて</p>
+            </div>
+          </a>
+        </li>
+        <li class="l_header-nav_item">
+          <a href="works_page.html" class="l_header-nav_link">
+            <div class="m_navigation_content">
+              <p class="m_navigation_title">Works</p>
+              <p class="m_navigation_title-jp">制作実績</p>
+            </div>
+          </a>
+        </li>
+        <li class="l_header-nav_item">
+          <a href="index.html#service" class="l_header-nav_link">
+            <div class="m_navigation_content">
+              <p class="m_navigation_title">Service</p>
+              <p class="m_navigation_title-jp">サービス</p>
+            </div>
+          </a>
+        </li>
+        <li class="l_header-nav_item">
+          <a href="blog_cat.html" class="l_header-nav_link">
+            <div class="m_navigation_content">
+              <p class="m_navigation_title">Blog</p>
+              <p class="m_navigation_title-jp">ブログ</p>
+            </div>
+          </a>
+        </li>
+        <li class="l_header-nav_item">
+          <a href="contact_page.html" class="l_header-nav_link">
+            <div class="m_navigation_content m_navigation_bgimage">
+              <p class="m_navigation_title">Contact</p>
+              <p class="m_navigation_title-jp">お問い合わせ</p>
+            </div>
+          </a>
+        </li>
+        <li class="l_header-nav_item">
+          <a
+            href="https://twitter.com/diet07110943"
+            class="m_sns-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="img/logo-black.png"
+              alt="X(旧twitter)"
+              class="m_sns-img"
+              width="2400"
+              height="2453"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <button class="m_hamburger js_hamburger">
+      <span class="m_hamburger-bar js_hamburger-bar"></span>
+      <span class="m_hamburger-bar js_hamburger-bar"></span>
+      <span class="m_hamburger-bar js_hamburger-bar"></span>
+    </button>
+
+    <p class="title">header</p>
+
+    <header class="l_header">
+      <div class="l_header_logo">
+        <a href="index.html" class="l_header_logo-link">
+          <img
+            src="img/header.png"
+            alt=""
+            class="l_header_logo-img"
+            width="606"
+            height="284"
+          />
+          <h1 class="l_header_logo_name">とこトン</h1>
+        </a>
+      </div>
+      <nav class="l_header-nav js_nav">
+        <ul class="l_header-nav_list">
+          <li class="l_header-nav_item">
+            <a href="index.html" class="l_header-nav_link">
+              <div class="m_navigation_content">
+                <p class="m_navigation_title">About</p>
+                <p class="m_navigation_title-jp">わたしについて</p>
+              </div>
+            </a>
+          </li>
+          <li class="l_header-nav_item">
+            <a href="works_page.html" class="l_header-nav_link">
+              <div class="m_navigation_content">
+                <p class="m_navigation_title">Works</p>
+                <p class="m_navigation_title-jp">制作実績</p>
+              </div>
+            </a>
+          </li>
+          <li class="l_header-nav_item">
+            <a href="index.html#service" class="l_header-nav_link">
+              <div class="m_navigation_content">
+                <p class="m_navigation_title">Service</p>
+                <p class="m_navigation_title-jp">サービス</p>
+              </div>
+            </a>
+          </li>
+          <li class="l_header-nav_item">
+            <a href="blog_cat.html" class="l_header-nav_link">
+              <div class="m_navigation_content">
+                <p class="m_navigation_title">Blog</p>
+                <p class="m_navigation_title-jp">ブログ</p>
+              </div>
+            </a>
+          </li>
+          <li class="l_header-nav_item">
+            <a href="contact_page.html" class="l_header-nav_link">
+              <div class="m_navigation_content m_navigation_bgimage">
+                <p class="m_navigation_title">Contact</p>
+                <p class="m_navigation_title-jp">お問い合わせ</p>
+              </div>
+            </a>
+          </li>
+          <li class="l_header-nav_item">
+            <a
+              href="https://twitter.com/diet07110943"
+              class="m_sns-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="img/logo-black.png"
+                alt="X(旧twitter)"
+                class="m_sns-img"
+                width="2400"
+                height="2453"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button class="m_hamburger js_hamburger">
+        <span class="m_hamburger-bar"></span>
+        <span class="m_hamburger-bar"></span>
+        <span class="m_hamburger-bar"></span>
+      </button>
+    </header>
+
+    <p class="title">blog_cat</p>
+
+    <div class="m_blog_cat">
+      <a href="blog_cat.html#childcare" class="m_blog_cat-meta">子育て</a>
+    </div>
+    <div class="m_blog_cat">
+      <a href="blog_cat.html#web" class="m_blog_cat-meta">Web制作</a>
+    </div>
+    <div class="m_blog_cat">
+      <a href="blog_cat.html#daily" class="m_blog_cat-meta">日々のあれこれ</a>
+    </div>
+
+    <p class="title">blog_article</p>
+
+    <article class="m_blog_article">
+      <div class="m_blog_article-item">
+        <div class="m_blog_article-img">
+          <img
+            src="img/works02_single.jpg"
+            alt=""
+            class="m_blog_article-thumb"
+            width="343"
+            height="212"
+          />
+        </div>
+        <div class="m_blog_article-content">
+          <div class="m_blog_article-meta">
+            <time class="m_blog_article-date">2023.09.26</time>
+            <div class="m_blog_cat">
+              <a href="" class="m_blog_cat-meta"> 育児 </a>
+            </div>
+          </div>
+          <p class="m_blog_article-title">タイトルタイトル</p>
+        </div>
+      </div>
+    </article>
+
+    <p class="title">decoration</p>
+
+    <div class="m_point">
+      <div class="m_point-decoration"></div>
+      <div class="m_point_content">
+        <p class="m_point_title">point</p>
+        <p class="m_point_title-jp">ポイント</p>
+      </div>
+    </div>
+
+    <p class="title">Contact</p>
+
+    <!-- <div class="contact_form_icon">
+      <p class="contact_form_option">任意</p>
+    </div>
+    <div class="contact_form_icon">
+      <p class="contact_form_required">必須</p>
+    </div> -->
+
+    <div class="contact">
+      <form action="" class="contact_form">
+        <dl class="contact_form_list">
+          <dt class="contact_form_heading">
+            会社名<span class="contact_form_option">任意</span>
+          </dt>
+          <dd class="contact_form_detail">
+            <input type="text" class="contact_form_input" />
+          </dd>
+
+          <dt class="contact_form_heading">
+            お名前<span class="contact_form_required">必須</span>
+          </dt>
+          <dd class="contact_form_detail">
+            <input type="text" class="contact_form_input" />
+          </dd>
+
+          <dt class="contact_form_heading">
+            メールアドレス
+            <span class="contact_form_required">必須</span>
+          </dt>
+          <dd class="contact_form_detail">
+            <input type="email" class="contact_form_input" />
+          </dd>
+
+          <dt class="contact_form_heading">
+            お問い合わせ内容
+            <span class="contact_form_required">必須</span>
+          </dt>
+          <dd class="contact_form_detail">
+            <textarea class="contact_form_textarea"></textarea>
+          </dd>
+        </dl>
+
+        <label for="privacy_policy" class="contact_form_policy">
+          <input
+            type="checkbox"
+            name="privacy_policy"
+            id="privacy_policy"
+            value=""
+            class="contact_form_checkbox"
+          />
+          <a href="" class="contact_form_policy-link">プライバシーポリシー</a
+          >に同意する
+        </label>
+
+        <div class="contact_form_btn-wrapper">
+          <div class="m_btn_proposal">
+            <p class="m_btn_proposal-text">３日以内に返信させていただきます</p>
+          </div>
+          <div class="m_btn u_mt16">
+            <input
+              type="submit"
+              class="m_btn_link m_btn_link__accentColor contact_form_btn"
+              value="送信する"
+            />
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <p class="title">service</p>
+
+    <li class="service_item">
+      <p class="service_item_number">01</p>
+      <p class="service_item_title">ホームページ作成</p>
+      <div class="service_item_line">
+        <img
+          src="img/line.png"
+          alt=""
+          class="service_item_decoration"
+          width="373"
+          height="3"
+        />
+      </div>
+      <p class="service_item_text">
+        HTML・CSS・javascriptを用いて、動きのあるホームページ作成します。
+      </p>
+
+      <div class="m_point service_item_point">
+        <div class="m_point-decoration"></div>
+        <div class="m_point_content">
+          <p class="m_point_title">point</p>
+          <p class="m_point_title-jp">ポイント</p>
+        </div>
+      </div>
+
+      <p class="service_item_point-text">
+        SEO対策を意識してコーディングすること、実機テストをして表示崩れがないかを隅々までチェックすることに力を入れています。
+      </p>
+    </li>
+
+    <p class="title">Works</p>
+
+    <li class="works_item">
+      <div class="works_item_thumb">
+        <a href="" class="works_item_link">
+          <img
+            src="img/works_top.png"
+            alt="MIZUTANI YUKI様のポートフォリオサイト"
+            class="works_item_img"
+            width="686"
+            height="424"
+          />
+        </a>
+      </div>
+      <p class="works_item_title">MIZUTANI YUKI様 <br />ポートフォリオサイト</p>
+      <div class="m_btn u_mt32">
+        <a href="works_page.html" class="m_btn_link">もっとみる </a>
+      </div>
+    </li>
+
+    <li class="works_item_detail">
+      <div class="works_item_detail-thumb">
+        <a
+          href="https://yumeme777.github.io/yuki.mizutani.github.io/index.html"
+          class="works_item_detail-link"
+        >
+          <img
+            src="img/works_single.jpg"
+            alt=""
+            class="works_item_detail-img"
+            width="686"
+            height="424"
+          />
+        </a>
+      </div>
+      <div class="works_item_detail-content">
+        <a
+          href="https://yumeme777.github.io/yuki.mizutani.github.io/index.html"
+          class="works_item_detail-link"
+        >
+          YUKI MIZUTANI portfolio site
+        </a>
+
+        <p class="works_item_detail-skill u_mt16">
+          Planning / Design / HTML・CSS
+        </p>
+        <p class="works_item_detail-desc u_mt16">
+          三重県を拠点に動画クリエイターとして活動している水谷悠樹様のポートフォリオサイトを作成させていただきました。プランニングからデザイン、コーディングを担当しました。
+        </p>
+
+        <div class="m_point works_item_point u_mt32">
+          <div class="m_point-decoration"></div>
+          <div class="m_point_content">
+            <p class="m_point_title">point</p>
+            <p class="m_point_title-jp">ポイント</p>
+          </div>
+        </div>
+        <p class="works_item_detail-point">
+          クライアント様のバックグランドを把握した上でデザインを考えていくことや、連絡をまめに取ること、修正作業を素早くおこない早くレスポンスすること、イメージのすり合わせのためにとこトン寄り添い、疑問に思ったことはすぐ聞くことを意識しました。
+        </p>
+      </div>
+    </li>
+
+    <div class="m_btn u_mt120">
+      <a href="" class="m_btn_link">もどる</a>
+    </div>
+
+    <div class="m_btn_wrapper u_mt32">
+      <div class="m_btn_proposal">
+        <p class="m_btn_proposal-text">お気軽にご相談ください！</p>
+      </div>
+      <div class="m_btn contact_btn">
+        <a href="" class="m_btn_link m_btn_link__accentColor">お問い合わせ</a>
+      </div>
+    </div>
+
+    <p class="title">flow</p>
+    <li class="flow_figure_item">
+      <div class="flow_figure_item-flex">
+        <p class="flow_figure_item-number">1</p>
+        <div class="flow_figure_item-content">
+          <p class="flow_figure_item-title">お問い合わせ</p>
+          <p class="flow_figure_item-desc">
+            お客様からお問い合わせいただいた後３日以内にご連絡します。また、ご相談内容についてのヒアリングを無料でさせていただいておりますので、ぜひご活用ください。無理な勧誘は一切ございませんので安心してください。ご縁があれば幸いです。
+          </p>
+        </div>
+      </div>
+      <div class="flow_figure_item-figure">
+        <img
+          src="img/flow.png"
+          alt="お問い合わせ"
+          class="flow_figure_item-img"
+          width="1000"
+          height="1001"
+        />
+      </div>
+    </li>
+
+    <div class="m_btn_wrapper u_mt80">
+      <div class="m_btn_proposal">
+        <p class="m_btn_proposal-text">お気軽にご相談ください！</p>
+      </div>
+      <div class="m_btn contact_btn">
+        <a href="" class="m_btn_link m_btn_link__accentColor">お問い合わせ</a>
+      </div>
+    </div>
+
+    <p class="title">とこトン</p>
+
+    <div class="m_copy_character">
+      <img
+        src="img/copy.png"
+        alt=" とこトンよりそいます"
+        class="m_copy_character-img"
+        width="514"
+        height="289"
+      />
+    </div>
+
+    <div class="m_btn">
+      <a href="" class="m_btn_link">もどる</a>
+    </div>
+
+    <p class="title">blog single</p>
+
+    <div class="m_section_title-wrapper">
+      <div class="m_section_title-decoration"></div>
+      <div class="m_section_title-content">
+        <h2 class="m_section_title">Blog</h2>
+        <p class="m_section_title-jp">ブログ</p>
+      </div>
+
+      <div class="m_section_title-decoration"></div>
+    </div>
+
+    <article class="m_blog_article_single">
+      <h1 class="m_blog_article_single-title">デザインカンプ明日まで</h1>
+      <div class="m_blog_article-meta u_mt32">
+        <time class="m_blog_article-date">2023.09.26</time>
+        <div class="m_blog_cat">
+          <a href="" class="m_blog_cat-meta"> 育児 </a>
+        </div>
+      </div>
+      <p class="m_blog_article_single-text">
+        土曜日に、アリス先生とある約束をしました。それは「デザインカンプは火曜日まで」です。私にとってそれがどれだけしんどいことかわかっていました。さかのぼること約2か月前、最初のポートフォリオを作成していた私は、まるまる2週間デザインにあててたのでした。毎日、暗闇の中を進んでは戻り、進んでは戻り…。いってしまえば、地獄のような日々でした。それをまた…。でも、やるしかない、やってやろうじゃねえか。
+        「デザインカンプ完成は明日です」
+      </p>
+      <div class="m_blog_article_single-thumb">
+        <img src="" alt="" class="m_blog_article_single-img" />
+      </div>
+    </article>
+
+    <p class="title">header_nav</p>
+
+    <nav class="l_header-nav js_nav">
+      <ul class="l_header-nav_list">
+        <li class="l_header-nav_item">
+          <a href="index.html" class="l_header-nav_link">
+            <div class="m_navigation_content">
+              <p class="m_navigation_title">About</p>
+              <p class="m_navigation_title-jp">わたしについて</p>
+            </div>
+          </a>
+        </li>
+        <li class="l_header-nav_item">
+          <a href="works_page.html" class="l_header-nav_link">
+            <div class="m_navigation_content">
+              <p class="m_navigation_title">Works</p>
+              <p class="m_navigation_title-jp">制作実績</p>
+            </div>
+          </a>
+        </li>
+        <li class="l_header-nav_item">
+          <a href="index.html#service" class="l_header-nav_link">
+            <div class="m_navigation_content">
+              <p class="m_navigation_title">Service</p>
+              <p class="m_navigation_title-jp">サービス</p>
+            </div>
+          </a>
+        </li>
+        <li class="l_header-nav_item">
+          <a href="blog_cat.html" class="l_header-nav_link">
+            <div class="m_navigation_content">
+              <p class="m_navigation_title">Blog</p>
+              <p class="m_navigation_title-jp">ブログ</p>
+            </div>
+          </a>
+        </li>
+        <li class="l_header-nav_item">
+          <a href="contact_page.html" class="l_header-nav_link">
+            <div class="m_navigation_content m_navigation_bgimage">
+              <p class="m_navigation_title">Contact</p>
+              <p class="m_navigation_title-jp">お問い合わせ</p>
+            </div>
+          </a>
+        </li>
+        <li class="l_header-nav_item">
+          <a
+            href="https://twitter.com/diet07110943"
+            class="m_sns-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="img/logo-black.png"
+              alt="X(旧twitter)"
+              class="m_sns-img"
+              width="2400"
+              height="2453"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <p class="title">loading</p>
+
+    <div class="m_loading_animation js_opening">
+      <div class="m_loading_animation-wrapper">
+        <p class="m_loading_text">
+          <span class="m_loading_text_span js_opening_text">と</span>
+          <span class="m_loading_text_span js_opening_text">こ</span>
+          <span class="m_loading_text_span js_opening_text">ト</span>
+          <span class="m_loading_text_span js_opening_text">ン</span>
+        </p>
+        <div class="m_loading_logo js_loading_logo">
+          <img
+            src="img/loading_img.png"
+            alt="とこトンよりそいます"
+            class="loading_img"
+          />
+        </div>
+        <p class="m_loading_text">
+          <span class="m_loading_text_span js_opening_text">よ</span>
+          <span class="m_loading_text_span js_opening_text">り</span>
+          <span class="m_loading_text_span js_opening_text">そ</span>
+          <span class="m_loading_text_span js_opening_text">い</span>
+          <span class="m_loading_text_span js_opening_text">ま</span>
+          <span class="m_loading_text_span js_opening_text">す</span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>いわいゆめ｜お問い合わせ</title>
+    <meta
+      name="description"
+      content="「とこトンよりそうこと」をモットーとして活動している、いわいゆめのお問い合わせフォームです。"
+    />
+    <meta
+      name="keywords"
+      content="岩井佑明,いわいゆめ,いわい,ゆめ,コーダー,ウェブデザイン,web制作,とことん,ホームページ作成"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- favicon/web-clip-icon -->
+    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="webclip.png" />
+
+    <!-- ogp -->
+    <meta
+      property="og:site_name"
+      content="「とこトンよりそうこと」をモットーとして活動している、いわいゆめのお問い合わせフォームです。"
+    />
+    <meta
+      property="og:url"
+      content="https://yumeme777.github.io/yume-iwai.github.io/"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="いわいゆめ｜お問い合わせ" />
+    <meta
+      property="og:description"
+      content="「とこトンよりそうこと」をモットーとして活動している、いわいゆめのお問い合わせフォームです。"
+    />
+    <meta
+      property="og:image"
+      content="https://firebasestorage.googleapis.com/v0/b/fight777-df23d.appspot.com/o/ogp_tokotonn.png?alt=media&token=a5b7af97-15b8-40c5-a5db-7b8a9dfdb3ce"
+    />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:description"
+      content="「とこトンよりそうこと」をモットーとして活動している、いわいゆめのお問い合わせフォームです。"
+    />
+    <meta
+      name="twitter:image:src"
+      content="https://firebasestorage.googleapis.com/v0/b/fight777-df23d.appspot.com/o/ogp_tokotonn.png?alt=media&token=a5b7af97-15b8-40c5-a5db-7b8a9dfdb3ce"
+    />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kaisei+Opti&family=Noto+Sans+JP:wght@400;700&family=Palette+Mosaic&family=Skranji&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body class="js_body">
+    <header class="l_header js_header">
+      <div class="l_header_logo js_header-logo">
+        <img
+          src="img/header.png"
+          alt=""
+          class="l_header_logo-img"
+          width="606"
+          height="284"
+        />
+        <img
+          src="img/header_pc.png"
+          alt=""
+          class="l_header_logo-img__pc"
+          width="606"
+          height="284"
+        />
+        <a href="index.html" class="l_header_logo-link">
+          <h1 class="l_header_logo_name">とこトン</h1>
+        </a>
+      </div>
+
+      <div class="l_header-nav_wrapper js_nav-wrapper">
+        <div class="l_header-nav_img js_img">
+          <img
+            src="img/header.png"
+            alt=""
+            class="l_header-nav_topBottom"
+            width="606"
+            height="284"
+          />
+
+          <a href="index.html" class="l_header_logo-link">
+            <h1 class="l_header_logo_name">とこトン</h1>
+          </a>
+        </div>
+
+        <nav class="l_header-nav js_nav">
+          <ul class="l_header-nav_list">
+            <li class="l_header-nav_item">
+              <a href="index.html#about" class="l_header-nav_link">
+                <div class="m_navigation_content">
+                  <p class="m_navigation_title m_hamburger_title">About</p>
+                  <p class="m_navigation_title-jp">わたしについて</p>
+                </div>
+              </a>
+            </li>
+            <li class="l_header-nav_item">
+              <a href="works_page.html" class="l_header-nav_link">
+                <div class="m_navigation_content">
+                  <p class="m_navigation_title m_hamburger_title">Works</p>
+                  <p class="m_navigation_title-jp">制作実績</p>
+                </div>
+              </a>
+            </li>
+            <li class="l_header-nav_item">
+              <a href="index.html#service" class="l_header-nav_link">
+                <div class="m_navigation_content">
+                  <p class="m_navigation_title m_hamburger_title">Service</p>
+                  <p class="m_navigation_title-jp">サービス</p>
+                </div>
+              </a>
+            </li>
+            <li class="l_header-nav_item">
+              <a href="top_blog.html" class="l_header-nav_link">
+                <div class="m_navigation_content">
+                  <p class="m_navigation_title m_hamburger_title">Blog</p>
+                  <p class="m_navigation_title-jp">ブログ</p>
+                </div>
+              </a>
+            </li>
+            <li class="l_header-nav_item">
+              <div class="m_btn_wrapper">
+                <div class="m_btn_proposal">
+                  <p class="m_btn_proposal-text">お気軽にご相談ください！</p>
+                </div>
+                <div class="m_btn contact_btn u_mt16">
+                  <a
+                    href="contact_page.html"
+                    class="m_btn_link m_btn_link__accentColor l_header-nav_link"
+                    >お問い合わせ</a
+                  >
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <div class="l_header-nav_img js_img_bottom">
+          <img
+            src="img/header.png"
+            alt=""
+            class="l_header-nav_topBottom"
+            width="606"
+            height="284"
+          />
+        </div>
+      </div>
+
+      <button class="m_hamburger js_hamburger">
+        <span class="m_hamburger-bar js_hamburger-bar"></span>
+        <span class="m_hamburger-bar js_hamburger-bar"></span>
+        <span class="m_hamburger-bar js_hamburger-bar"></span>
+      </button>
+    </header>
+
+    <div class="kv_pc">
+      <img
+        src="img/kv_pc.png"
+        alt="とこトンよりそいます"
+        class="kv_img"
+        width="726"
+        height="1088"
+      />
+    </div>
+
+    <main class="main">
+      <section class="contact">
+        <div class="l_container">
+          <div class="l_content">
+            <div class="m_section_title-wrapper">
+              <div class="m_section_title-decoration"></div>
+              <div class="m_section_title-content">
+                <h2 class="m_section_title">Contact</h2>
+                <p class="m_section_title-jp">お問い合わせ</p>
+              </div>
+              <div class="m_section_title-decoration"></div>
+            </div>
+
+            <p class="m_section_text u_mt32">
+              ご相談は無料です。どんな些細なことでもお気軽にお問い合わせください。とこトン寄り添います。ご縁がありますように。
+            </p>
+
+            <div class="contact_form_body">
+              <form
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdy2bS5Dr8DYshVMTys0Qe9k2z8F4EHPtFdLIg2gBdM5EakCw/formResponse"
+                class="contact_form"
+                id="form"
+                method="post"
+                target="hidden_iframe"
+                onsubmit="submitted=true;"
+              >
+                <dl class="contact_form_list">
+                  <dt class="contact_form_heading">
+                    会社名<span class="contact_form_option">任意</span>
+                  </dt>
+                  <dd class="contact_form_detail">
+                    <input
+                      type="text"
+                      class="contact_form_input"
+                      autocomplete="organization"
+                      name="entry.932248414"
+                    />
+                  </dd>
+
+                  <dt class="contact_form_heading">
+                    お名前<span class="contact_form_required">必須</span>
+                  </dt>
+                  <dd class="contact_form_detail">
+                    <input
+                      type="text"
+                      class="contact_form_input"
+                      autocomplete="name"
+                      name="entry.434300070"
+                      required
+                    />
+                  </dd>
+
+                  <dt class="contact_form_heading">
+                    メールアドレス
+                    <span class="contact_form_required">必須</span>
+                  </dt>
+                  <dd class="contact_form_detail">
+                    <input
+                      type="email"
+                      class="contact_form_input"
+                      autocomplete="email"
+                      name="entry.979513674"
+                      required
+                    />
+                  </dd>
+
+                  <dt class="contact_form_heading">
+                    お問い合わせ内容
+                    <span class="contact_form_required">必須</span>
+                  </dt>
+                  <dd class="contact_form_detail">
+                    <textarea
+                      class="contact_form_textarea"
+                      name="entry.720061034"
+                      required
+                    ></textarea>
+                  </dd>
+                </dl>
+
+                <div class="contact_form_policy-body">
+                  <p class="contact_form_heading">
+                    プライバシーポリシー<span class="contact_form_required"
+                      >必須</span
+                    >
+                  </p>
+                  <div class="contact_form_policy-wrapper">
+                    <p class="contact_form_policy-text">
+                      いわいゆめ（以下「当事者」といいます）は、以下のとおり価人情報保護方針を定め、個人情報保後の仕組みを構築し、全従業員に個人情報保護の重要性の整髪と取組みを徹底させることにより、個人情報の保護を推進致します。
+                      <br /><span class="u_bold u_mt16">個人情報の管理</span>
+                      <br />当事者は、お客さまの個人情報を正確かつ最新の状態に保ち、個人情報への不正アクセス・紛失・彼損・改ざん・漏洩などを防止するため、セキュリティシステムの維持・管理体制の整備・社員教育の徹底等の必要な措置を講じ、安全対策を実施し個人情報の厳重な管理を行ないます。
+                      <br /><span class="u_bold u_mt16"
+                        >個人情報の利用目的</span
+                      >
+                      <br />お客さまからお預かりした個人情報は、当事者からのご連絡や業務のご案内やご質問に対する回答として、電子メールや資料のご送付に利用いたします。個人情報の第三者への開示・提供の禁止当事者は、お客さまよりお預かりした個人情報を適切に管理し、次のいずれかに該当する場合を除き、個人情報を第三者に開示いたしません。
+                      <br />(1) 本人確認のため
+                      <br />(2)問い合わせ内容の確認及び本契約の遂行のため
+                      <br />(3)申込者本人からの質問の返答のため
+                      <br />(4)本契約に関する案内、問い合わせ、アンケート等の依頼、送付のため
+                      <br />(5)本契約及び業務に関連付随する市場調査、データ収集、分析のため
+                      <br />(6)お客さまの同意がある場合お客さまが希望されるサービスを行なうために当事者が業務を委託する業者に対して開示する場合
+                      <br />法令に基づき開示することが必要である場合
+                      <br />(7)その他前各号に関連付随する業務遂行のため
+                      <br /><span class="u_bold u_mt16"
+                        >個人情報の安全対策</span
+                      >
+                      <br />当事者は、個人情報の正確性及び安全性確保のために、セキュリティに万全の対策を講じています。
+                      <br /><span class="u_bold u_mt16">ご本人の照会</span>
+                      <br />お客さまがご本人の個人情報の照会・修正・削除などをご希望される場合には、ご本人であることを確認の上、対応させていただきます。
+                      <br /><span class="u_bold u_mt16"
+                        >法令、規範の遵守と見直し</span
+                      >
+                      <br />当事者は、保有する個人情報に関して適用される日本の法令、その他規範を遵守するとともに、本ポリシーの内容を適宜見直し、その改善に努めます。
+                      <br /><span class="u_bold u_mt16">お問い合わせ</span>
+                      <br />当事者の個人情報の取扱に関するお問い合わせは、下記の連絡先にご連絡ください。
+                      <br />いわいゆめ <br />yume.777.ww@gmail.com
+                    </p>
+                  </div>
+                </div>
+
+                <label for="privacy_policy" class="contact_form_policy">
+                  <input
+                    type="checkbox"
+                    name="privacy_policy"
+                    id="privacy_policy"
+                    value=""
+                    class="contact_form_checkbox"
+                    required
+                  />
+                  プライバシーポリシーに同意する
+                </label>
+
+                <div class="contact_form_btn-wrapper">
+                  <div class="m_btn_proposal">
+                    <p class="m_btn_proposal-text">
+                      ３日以内に返信させていただきます
+                    </p>
+                  </div>
+                  <div class="m_btn u_mt16">
+                    <input
+                      type="submit"
+                      class="m_btn_link m_btn_link__accentColor contact_form_btn"
+                      value="送信する"
+                    />
+                  </div>
+                </div>
+              </form>
+
+              <script type="text/javascript">
+                var submitted = false;
+              </script>
+              <iframe
+                name="hidden_iframe"
+                id="hidden_iframe"
+                style="display: none"
+                onload="if(submitted){window.location='thanks_page.html';}"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="l_footer">
+      <div class="l_footer_wrapper">
+        <div class="l_footer_navigation">
+          <a href="index.html#about" class="m_navigation_link">
+            <div class="m_navigation_content">
+              <p class="m_navigation_title">About</p>
+              <p class="m_navigation_title-jp">わたしについて</p>
+            </div>
+          </a>
+
+          <a href="works_page.html" class="m_navigation_link">
+            <div class="m_navigation_content">
+              <p class="m_navigation_title">Works</p>
+              <p class="m_navigation_title-jp">制作実績</p>
+            </div>
+          </a>
+
+          <a href="index.html#service" class="m_navigation_link">
+            <div class="m_navigation_content">
+              <p class="m_navigation_title">Service</p>
+              <p class="m_navigation_title-jp">サービス</p>
+            </div>
+          </a>
+
+          <a href="top_blog.html" class="m_navigation_link">
+            <div class="m_navigation_content">
+              <p class="m_navigation_title">Blog</p>
+              <p class="m_navigation_title-jp">ブログ</p>
+            </div>
+          </a>
+        </div>
+        <div class="l_footer_navigation">
+          <a href="contact_page.html" class="m_navigation_link">
+            <div class="m_navigation_content m_navigation_bgimage">
+              <p class="m_navigation_title">Contact</p>
+              <p class="m_navigation_title-jp">お問い合わせ</p>
+            </div>
+          </a>
+          <div class="m_sns-icon">
+            <a
+              href="https://twitter.com/diet07110943"
+              class="m_sns-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="img/logo-black.png"
+                alt="X(旧twitter)"
+                class="m_sns-img"
+                width="2400"
+                height="2453"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <small class="l_footer_copyright u_mt32"> &copy;2023 YUME IWAI </small>
+    </footer>
+    <footer class="l_footer_pc">
+      <a href="index.html#about" class="m_navigation_link">
+        <div class="m_navigation_content">
+          <p class="m_navigation_title">About</p>
+          <p class="m_navigation_title-jp">わたしについて</p>
+        </div>
+      </a>
+
+      <a href="works_page.html" class="m_navigation_link">
+        <div class="m_navigation_content">
+          <p class="m_navigation_title">Works</p>
+          <p class="m_navigation_title-jp">制作実績</p>
+        </div>
+      </a>
+
+      <a href="index.html#service" class="m_navigation_link">
+        <div class="m_navigation_content">
+          <p class="m_navigation_title">Service</p>
+          <p class="m_navigation_title-jp">サービス</p>
+        </div>
+      </a>
+
+      <a href="top_blog.html" class="m_navigation_link">
+        <div class="m_navigation_content">
+          <p class="m_navigation_title">Blog</p>
+          <p class="m_navigation_title-jp">ブログ</p>
+        </div>
+      </a>
+
+      <a href="contact_page.html" class="m_navigation_link">
+        <div class="m_navigation_content m_navigation_bgimage">
+          <p class="m_navigation_title">Contact</p>
+          <p class="m_navigation_title-jp">お問い合わせ</p>
+        </div>
+      </a>
+
+      <div class="m_sns-icon">
+        <a
+          href="https://twitter.com/diet07110943"
+          class="m_sns-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="img/logo-black.png"
+            alt="X(旧twitter)"
+            class="m_sns-img"
+            width="2400"
+            height="2453"
+          />
+        </a>
+      </div>
+      <small class="l_footer_copyright"> &copy;2023 YUME IWAI </small>
+    </footer>
+  </body>
+</html>

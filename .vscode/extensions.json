@@ -1,0 +1,4 @@
+{
+	// 推奨事項を設定するファイルです
+	"recommendations": ["ritwickdey.LiveServer", "glenn2223.live-sass"]
+}

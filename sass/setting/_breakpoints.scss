@@ -1,0 +1,13 @@
+// メディアクエリを簡単に記述する方法: https://zenn.dev/ptduyen/articles/2ae777c3f3f30e
+$breakpoints: (
+	'sm': 'screen and (min-width: 500px)',
+	'md': 'screen and (min-width: 768px)',
+	'lg': 'screen and (min-width: 1080px)',
+	'xl': 'screen and (min-width: 1200px)',
+);
+
+@mixin mq($breakpoint: md) {
+	@media #{map-get($breakpoints, $breakpoint)} {
+		@content; // 中身を出力
+	}
+}
