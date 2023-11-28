@@ -275,8 +275,9 @@ body {
   transform: translateY(-50%) rotate(135deg);
 }
 .js_hamburger.is-active .m_hamburger-bar:nth-child(2) {
-  transform: translate(50%, -50%);
+  transform: translate(0, 0);
   opacity: 0;
+  right: 0px;
 }
 .js_hamburger.is-active .m_hamburger-bar:nth-child(3) {
   top: 50%;
@@ -286,7 +287,7 @@ body {
   position: absolute;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.24s;
+  transition: opacity 0.3s;
 }
 @media screen and (min-width: 768px) {
   .js_nav {
@@ -297,7 +298,7 @@ body {
 .js_nav.is-active {
   opacity: 1;
   pointer-events: auto;
-  background-color: transparent;
+  background-color: #fff;
   z-index: 500;
   position: fixed;
   top: 0;
@@ -328,20 +329,20 @@ body {
 }
 .js_img_bottom {
   display: none;
+  position: absolute;
+  bottom: 130px;
+  transform: rotate(180deg);
+  width: 100%;
+  z-index: 550;
 }
 .js_img_bottom.is-active {
   display: block;
-  z-index: 200;
-  position: absolute;
-  bottom: -20px;
-  right: 0;
-  transform: rotate(180deg);
-  width: 100%;
 }
-.js_header-logo.is-active {
-  display: none;
+.js_header-logo {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 550;
 }
-
 .l_footer {
   background-color: #F6C7BC;
   padding: 40px;
@@ -621,7 +622,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .m_navigation_link:hover {
-    transform: scale(120%);
+    transform: scale(1.2);
   }
 }
 .m_navigation_content {
@@ -825,7 +826,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .m_sns-icon:hover {
-    transform: scale(120%);
+    transform: scale(1.2);
   }
 }
 .m_sns-link {
